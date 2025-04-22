@@ -10,4 +10,5 @@ spring:
         git:
           uri: https://github.com/r0b3rth42/cfg-dev
           clone-on-start: true
+          default-label: master
 

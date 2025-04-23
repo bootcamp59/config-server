@@ -10,5 +10,13 @@ spring:
         git:
           uri: https://github.com/r0b3rth42/cfg-dev
           clone-on-start: true
-          default-label: master
+          default-label: develop
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
